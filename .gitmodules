@@ -1,0 +1,4 @@
+[submodule "mydeck"]
+	path = mydeck
+	url = git@github.com:jjurach/CourseraDataProductsProject.git
+	branch = gh-pages
