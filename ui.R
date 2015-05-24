@@ -38,7 +38,11 @@ shinyUI(fluidPage(
       p("In order to get started, modify any of the inputs in order to see changes in the map."),
       p(strong("Score Range")," selects which scores are seen on the map."),
       p(strong("Zoom")," controls how zoomed in you are on 'Austin, TX'."),
-      p(strong("Date Range")," selects on the inspection_date of the dataset.")
+      p(strong("Date Range")," selects on the inspection_date of the dataset."),
+      h1("Source Available"),
+      p("You can view the source code for this application at ",
+        a(href="https://github.com/jjurach/CourseraDataProductsProject", "my github project"),
+        ".")
     ),
   )
 ))
