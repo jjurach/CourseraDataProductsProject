@@ -1,130 +1,101 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>My Test Deck</title>
   <meta charset="utf-8">
-  <meta name="description" content="My Test Deck">
+  <title>Austin Restaurant Inspections</title>
+  <meta name="description" content="">
   <meta name="author" content="James Jurach">
-  <meta name="generator" content="slidify" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
-  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
-    media="only screen and (max-device-width: 480px)" >
-  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
-  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
-
-  
-  <!-- Grab CDN jQuery, fall back to local if offline -->
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
-  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
-  <script data-main="libraries/frameworks/io2012/js/slides" 
-    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
-  </script>
-  
-  
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="./frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="./frameworks/revealjs/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="./highlighters/highlight.js/css/zenburn.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
 
 </head>
-<body style="opacity: 0">
-  <slides class="layout-widescreen">
-    
-    <!-- LOGO SLIDE -->
-        <slide class="title-slide segue nobackground">
-  <hgroup class="auto-fadein">
-    <h1>My Test Deck</h1>
-    <h2>An exploration</h2>
-    <p>James Jurach<br/></p>
-  </hgroup>
-  <article></article>  
-</slide>
-    
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h1>Austin Restaurant Inspections</h1>
+  <h2>A New Shiny App</h2>
 
-    <!-- SLIDES -->
-    <slide class="" id="slide-1" style="background:;">
-  <hgroup>
-    <h2>Something Interesting</h2>
-  </hgroup>
-  <article data-timings="">
-    <pre><code class="r">x &lt;- runif(100, min=0, max=100)
-y &lt;- 1.2*x + 10 + rnorm(length(x), sd=2)
-plot(y ~ x)
-</code></pre>
+<p>A submitted project for Coursera Developing Data Products</p>
 
-<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!</p>
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Restaurant Inspections</h2>
+  <p><a href="https://jamesjurach.shinyapps.io/AustinRestaurantInspections">https://jamesjurach.shinyapps.io/AustinRestaurantInspections</a>
+is a most amazing application. It has these features:</p>
 
-  </article>
-  <!-- Presenter Notes -->
-</slide>
+<ul>
+<li><p>A map of Austin</p></li>
+<li><p>A dot for each restaurant colored by score</p></li>
+<li><p>Interactive criteria selection and zoom.</p></li>
+</ul>
 
-<slide class="class" id="id" style="background:;">
-  <hgroup>
-    <h2>Something Interesting</h2>
-  </hgroup>
-  <article data-timings="">
-    <pre><code class="r">x &lt;- runif(100, min=0, max=100)
-y &lt;- -1.2*x + 10 + rnorm(length(x), sd=10)
-plot(y ~ x)
-</code></pre>
-
-<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"> 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!</p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="class" id="id" style="background:;">
-  <hgroup>
-    <h2>Slide 3</h2>
-  </hgroup>
-  <article data-timings="">
-    <p>La la la</p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-    <slide class="backdrop"></slide>
-  </slides>
-  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
-    <ul>
-      <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Something Interesting'>
-         1
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Something Interesting'>
-         2
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Slide 3'>
-         3
-      </a>
-    </li>
-  </ul>
-  </div>  <!--[if IE]>
-    <script 
-      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
-    </script>
-    <script>CFInstall.check({mode: 'overlay'});</script>
-  <![endif]-->
-</body>
-  <!-- Load Javascripts for Widgets -->
+</section>
+<section class='class' data-state='' id='id'>
   
-  <!-- LOAD HIGHLIGHTER JS FILES -->
-  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
-   
-  </html>
+  <pre><code class="r">df0 &lt;- read.csv(&#39;austin_restaurant_inspections.csv&#39;)
+df &lt;- df0[df0$score&lt;80 &amp; df0$lon&gt; -97.748891 &amp;
+           df0$lon&lt; -97.738420 &amp; df0$lat &gt; 30.263400 &amp; df0$lat &lt; 30.274056,]
+map &lt;- readRDS(&quot;map-16.rds&quot;)
+ggmap(map) + geom_point(aes(lon, lat, tooltip=name), data=df, alpha=0.8,
+             color=df$score, point_size=5) + labs(x=NULL, y=NULL)
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Starbucks Scores</h2>
+  <pre><code class="r">ggplot(df0, aes(x=score)) +
+  geom_histogram(aes(y=..density..), binwidth=0.5) +
+  geom_density(alpha=.2, fill=&quot;#FF6666&quot;)
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-3-1.png" alt="plot of chunk unnamed-chunk-3"> </p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h1>Thank You</h1>
+  <p>I hope you enjoy my Shiny Application and your remaining evaluations.</p>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="./frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="./frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'solarized', 
+    transition: Reveal.getQueryHash().transition || 'none', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: './frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: './frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: './frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: './frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="./highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
